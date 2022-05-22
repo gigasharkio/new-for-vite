@@ -1,0 +1,18 @@
+body {
+  font-family: "Helvetica Neue";
+}
+
+.button-container {
+  padding: 1rem;
+  border: 1px solid gray;
+  border-radius: 4px;
+  margin-bottom: 1rem;
+}
+
+.button-container p {
+  margin: 0.5rem;
+}
+
+.user-info {
+  margin-bottom: 1rem;
+}

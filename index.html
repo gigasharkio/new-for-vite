@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Parcel Sandbox</title>
+    <meta charset="UTF-8" />
+  </head>
+
+  <body>
+    <div id="app">
+      <header class="user-info">
+        <div>
+          Address:
+          <span id="address"></span>
+        </div>
+        <div>
+          Network:
+          <span id="network"></span>
+        </div>
+        <div>
+          Balance:
+          <span id="balance"></span>
+        </div>
+      </header>
+      <div class="button-container">
+        <p>Prompt the user to select a wallet</p>
+        <button id="walletSelect">Wallet Select</button>
+      </div>
+      <div class="button-container">
+        <p>Run the wallet checks to make sure the user is ready to transact</p>
+        <button disabled id="walletCheck">Wallet Check</button>
+      </div>
+    </div>
+
+    <script src="src/index.js"></script>
+  </body>
+</html>
